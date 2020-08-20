@@ -28,7 +28,7 @@ class NewVisitorTest(LiveServerTestCase):
                     raise e
                 time.sleep(.5)
     
-    def test_can_start_a_list_and_retrieve_it_later(self):
+    def test_can_start_a_list_for_one_user(self):
         
         # 伊利斯听说有一个很cool的在线待办事项应用
         # 她去看了这个应用的首页
